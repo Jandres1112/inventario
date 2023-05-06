@@ -17,7 +17,7 @@ const App = () => {
         <Route exact path='/estado' component={estadoview} />
         <Route exact path='/' component={Inventarioview}/>
         <Route exact path='/Marca' component={marcaview}/>
-        <Route  exact path='/tipos' component={tipoview} />
+        <Route exact path='/tipos' component={tipoview} />
         <Route exact path='/usuarios' component={usuarioview}/>
         <Route exact path='/inventarios/edit/:id}' component={InventarioUpdate}></Route>
         <Redirect to='/' />
